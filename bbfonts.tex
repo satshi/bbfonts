@@ -1,0 +1,50 @@
+
+\documentclass[paper=a4, fontsize=12pt, line_length=16cm, number_of_lines=33,dvipdfmx]{jlreq}
+
+\usepackage{amsmath,amssymb}
+\usepackage[bold,uplatex]{otf}
+%% Fonts
+\usepackage{tgtermes,tgheros,tgcursor}
+\renewcommand{\bfdefault}{bx}
+\usepackage[varg]{newtxmath}
+\usepackage{graphicx}
+
+\newcommand{\Zb}{\mathbb{Z}}
+\newcommand{\Rb}{\mathbb{R}}
+\newcommand{\Cb}{\mathbb{C}}
+\newcommand{\Ncal}{\mathcal{N}}
+\newcommand{\del}{\partial}
+\newcommand{\deldel}[2]{\frac{\del #1}{\del #2}}
+
+\DeclareMathOperator*{\Tr}{{\rm Tr}}
+\DeclareMathOperator*{\tr}{{\rm tr}}
+
+\newcommand{\rb}{{\vvmathbb{r}}}
+\newcommand{\ab}{{\vvmathbb{a}}}
+\newcommand{\bb}{{\vvmathbb{b}}}
+\newcommand{\cb}{{\vvmathbb{c}}}
+\newcommand{\vb}{{\vvmathbb{v}}}
+\newcommand{\wb}{{\vvmathbb{w}}}
+\newcommand{\eb}{\vvmathbb{e}}
+\newcommand{\Ab}{{\vvmathbb{A}}}
+\newcommand{\Eb}{{\vvmathbb{E}}}
+\newcommand{\Bb}{{\vvmathbb{B}}}
+\newcommand{\jb}{{\vvmathbb{j}}}
+\newcommand{\zerob}{\vvmathbb{0}}
+\newcommand{\rbt}{\tilde{\rb}}
+\newcommand{\nb}{\mathbb{n}}
+
+
+
+\newcommand{\bbnabla}{\raisebox{-0.05ex}{\includegraphics[width=0.65em]{bbnabla.pdf}}}
+\newcommand{\nnabla}{\raisebox{-0.05ex}{\includegraphics[width=0.65em]{nnabla.pdf}}}
+\newcommand{\bbbeta}{\raisebox{-0.5ex}{\includegraphics[width=0.5em]{bbbeta.pdf}}}
+
+\begin{document}
+\begin{align}
+  \Bb = \bbnabla \times \Ab\\
+  \nnabla^2 \phi = \bbnabla\cdot \bbnabla \phi \\
+  %\betab := %\vvmathbb{v}/c
+  \beta\qquad\bbbeta= \vvmathbb{v}/c
+\end{align}
+\end{document}
